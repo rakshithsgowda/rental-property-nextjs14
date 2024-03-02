@@ -8,9 +8,14 @@ export const metadata = {
 
 const MainLayout = ({ children }) => {
   return (
+    // global context provider
+    // auth context provider
     <html lang='en'>
       <body>
+        {/* Navbar */}
         <div>{children} </div>
+        {/* footer and 
+        toast container */}
       </body>
     </html>
   )
