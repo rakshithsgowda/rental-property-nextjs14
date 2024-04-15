@@ -1,5 +1,5 @@
-import '@/assets/styles/global.css'
 import Navbar from '@/components/Navbar'
+import '@/assets/styles/global.css'
 
 export const metadata = {
   title: 'propertyPulse | Find the perfect Rental',
