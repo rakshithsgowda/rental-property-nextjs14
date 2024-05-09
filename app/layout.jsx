@@ -1,8 +1,9 @@
 import Navbar from '@/components/Navbar'
 import '@/assets/styles/global.css'
+import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'propertyPulse | Find the perfect Rental',
+  title: 'RENTA | Find the perfect Rental',
   description: 'find your dream rental property',
   keywords: 'rental,find rentals,find properties',
 }
@@ -18,6 +19,7 @@ const MainLayout = ({ children }) => {
         <main>{children} </main>
         {/* footer and 
         toast container */}
+        <Footer />
       </body>
     </html>
   )

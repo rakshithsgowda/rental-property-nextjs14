@@ -38,3 +38,6 @@ next-env.d.ts
 
 # testing the images in public folder
 public/images/properties
+
+# Project todo GOALS
+todo.md
