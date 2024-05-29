@@ -1,12 +1,15 @@
-import React from 'react'
+import PropertySearchForm from '@/components/PropertySearchForm'
+import properties from '@/properties_example.json'
 
 const PropertiesPage = () => {
   return (
-    <div>
-      PropertiesPage
-      {/* properties search form  */}
-      {/* list all properties */}
-    </div>
+    <>
+      {properties.length === 0 ? (
+        <p>no property found</p>
+      ) : (
+        <div>{properties.map((property) => property.name)}</div>
+      )}
+    </>
   )
 }
 

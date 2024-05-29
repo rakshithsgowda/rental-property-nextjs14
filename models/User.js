@@ -1,2 +1,2 @@
 // data structure
-email, username, image, bookmarks, timestamps
+// email, username, image, bookmarks, timestamps
